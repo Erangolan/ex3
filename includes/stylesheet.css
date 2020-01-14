@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    width: 1000px;
+    height: 1000px;
+    background-color: #000000;
+    margin: 0px auto;
+}
+
+.clear{
+    clear: both;
+}
+
+header, nav, aside, article, section, footer, main{
+    display: block;
+}
+
+header{
+    width: 1000px;
+    height: 183px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: right;
+    width: 242px;
+    height: 60px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:  22px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    opacity: 60%;
+}
+
+nav{
+    width: 726px;
+    height: 57px;
+    background-color: #b94a48;
+    float: right;
+    margin-top: 47px;
+}
+
+#logo{
+    width: 78px;
+    height: 79px;
+    margin-top: 12px;
+    margin-left: 104px;
+    background-image: url(../images/der.jpg);
+    display: block;
+}
+
+aside{
+    width: 122px;
+    height: 696px;
+    float: left;
+    background-color: #f2dede;
+}
+
+section{
+    width: 849px;
+    height: 268px;
+    background-color: #ee5f5b;
+    margin-left: 152px;
+    position: relative;
+}
+
+footer{
+    width: 1000px;
+    height: 121px;
+    background-color: #d6d6d6;
+}
+
+article{
+    position: absolute;
+    background-color: black;
+}
+
+#box1{
+    margin-left: 343px;
+    width: 126px;
+    height: 94px;
+    background-color: #5f2624;
+    float: left;
+    margin-top: 74px;
+}
+
+main > article {
+    position: absolute;
+}
+
+#box2{
+    width: 692px;
+    height: 175px;
+    float: left;
+    margin-left: 218px;
+    margin-top: 226px;
+    background-color: #666666;
+}
+
+
+/*-----------------Layout 2-----------------*/
+
+
+
+#wrapper2{
+    width: 1000px;
+    height: 1000px;
+    background-color: #ffffff;
+    margin: 0px auto;
+}
+
+#logo2{
+    width: 78px;
+    height: 79px;
+    margin-top: 39px;
+    margin-left: 466px;
+    background-image: url(../images/der.jpg);
+    display: block;
+    float: left;
+}
+
+wrapper2 > header{
+    width: 1000px;
+    height: 193px;
+}
+
+aside > nav{
+    width: 244px;
+    height: 759px;
+    float: left;
+    background-color: #333333;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#_blank:hover{
+    background-color: #b94a48;
+}
+
+.flex-container{
+    width: 756px;
+    height: 759px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ee5f5b;
+    margin-left: 244px;
+}
+
+.flex-container > article{
+    position: relative;
+    width: 213px;
+    background-color: #5f2624;
+    
+    margin-left: 30px;
+}
+
+#box-01{
+    width: 213px;
+    height: 366px;
+    margin-top: 0px;
+}
+
+.clear{
+    clear: both;
+}
+
+#box-02{
+    width: 213px;
+    height: 561px;
+    margin-top: 0px;
+}
+
+#box-03{
+    width: 213px;
+    height: 224px;
+    margin-top: 0px;
+}
+
+#box-04{
+    width: 213px;
+    height: 373px;
+    margin-top: -175px;
+}
+
+#box-05{
+    width: 213px;
+    height: 179px;
+    margin-top: 19px;
+}
+
+#box-06{
+    width: 1000px;
+    height: 51px;
+    position: absolute;
+    background-color: #d6d6d6;
+    margin-left: -244px;
+    margin-top: 759px;
+}
+
+
+
+
+/*-------------Layout 3------------*/
+
+
+
+
+#wrapper3{
+    width: 1000px;
+    height: 1000px;
+    margin: 0px auto;
+    background-color: #9d261d;
+}
+
+#wrapper3 > header{
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+}
+
+#logo3{
+    width: 78px;
+    height: 79px;
+    margin-left: 0px;
+    margin-top: 22px;
+    background-image: url(../images/der.jpg);
+    float: left;
+    display: block;
+    border: 0ch;
+}
+
+#logo3.focus, #logo3:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
+#wrapper3 > header > nav{
+    margin-top: 183px;
+    height: 62px;
+    width: 100%;
+}
+
+#wrapper3 > header > nav > ul > li{
+    width: 33.33%;
+    /*height: 60px;*/
+    /*margin: 0px;*/
+}
+
+#plus{
+    width: 105px;
+    height: 100px;
+    background-image: url(../images/plus-empty.png);
+    margin-top: 155px;
+    margin-left: 110px;
+    float: left;
+    display: block;
+    border: 0ch;
+    background-color: #ffffff;
+}
+
+
+#plus.focus, #plus:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
